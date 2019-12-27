@@ -1,7 +1,6 @@
 #lang at-exp racket
 
-(require ts-kata-util/assets/main
-         fandom-sprites
+(require fandom-sheets
          game-engine)
 
 
@@ -267,3 +266,10 @@
 (define-sprite charmander-sheet 1 5 1 charmander-sprite)
 (define-sprite charmeleon-sheet 1 8 1 charmelon-sprite)
 (define-sprite charizard-sheet 1 8 1 charizard-sprite)
+
+;Fortnite
+(define-sprite cecil-sheet 4 4 3 cecil-sprite)
+(define-sprite constructor-sheet 4 4 3 constructor-sprite)
+(define-sprite ninja-sheet 4 4 3 ninja-sprite)
+(define-sprite outlander-sheet 4 4 3 outlander-sprite)
+(define-sprite soldier-sheet 4 4 3 soldier-sprite)
