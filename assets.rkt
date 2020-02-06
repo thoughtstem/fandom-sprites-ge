@@ -5,7 +5,10 @@
          pokemon-sprites)
 
 
-(provide ;Harry Potter
+(provide draw-sprite
+         pick-frame
+
+         ;Harry Potter
          potion-sprite
          ;Mario
          redmushroom-sprite
